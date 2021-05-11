@@ -1,5 +1,5 @@
 # PCA_subtype_JCI
-R scripts
+
 
 ## Publication
 "Tumor subtype defines distinct pathways of molecular and clinical progression in primary prostate cancer"
