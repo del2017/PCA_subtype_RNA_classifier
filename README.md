@@ -1,4 +1,5 @@
-# PCA_ERG.PTEN_SPOP.CHD1
+# PCA_subtype_JCI
+## SPOP, CHD1, and PTEN prediction
 
 
 ## Publication
