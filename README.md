@@ -1,4 +1,4 @@
-# PCA_subtype_ERG.PTEN_SPOP.CHD1
+# PCA_ERG.PTEN_SPOP.CHD1
 
 
 ## Publication
