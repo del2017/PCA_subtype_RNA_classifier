@@ -1,6 +1,4 @@
 # PCA_subtype_JCI
-## SPOP, CHD1, and PTEN prediction
-
 
 ## Publication
 "Tumor subtype defines distinct pathways of molecular and clinical progression in primary prostate cancer"
