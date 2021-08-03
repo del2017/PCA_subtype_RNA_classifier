@@ -1,11 +1,10 @@
 # PCA_subtype_JCI
 
 ## Publication
-"Tumor subtype defines distinct pathways of molecular and clinical progression in primary prostate cancer"
+Tumor subtype defines distinct pathways of molecular and clinical progression in primary prostate cancer
 https://www.jci.org/articles/view/147878
 
 ## Abstract
-"
 BACKGROUND. Molecular characterization of prostate cancer (PCa) has revealed distinct subclasses based on underlying genomic alterations occurring early in the natural history of the disease. However, how these early alterations influence subsequent molecular events and the course of the disease over its long natural history remains unclear.
 
 METHODS. We explored the molecular and clinical progression of different genomic subtypes of PCa using distinct tumor lineage models based on human genomic and transcriptomic data. We developed transcriptional classifiers, and defined “early” and “late” categories of molecular subclasses from 8,158 PCa patients. Molecular subclasses were correlated with clinical outcomes and pathologic characteristics using Kaplan-Meier and logistic regression analyses.
@@ -14,4 +13,3 @@ RESULTS. We identified PTEN and CHD1 alterations as subtype-specific late progre
 
 CONCLUSION. These findings suggest a paradigm in which specific subtypes of PCa follow distinct pathways of progression, at both the molecular and clinical levels. Therefore, the interpretation of common clinical parameters such as locoregional tumor stage may be influenced by the underlying tumor lineage, and potentially influence management decisions.
 
-"
