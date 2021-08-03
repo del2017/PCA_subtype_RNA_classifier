@@ -2,21 +2,16 @@
 
 ## Publication
 "Tumor subtype defines distinct pathways of molecular and clinical progression in primary prostate cancer"
-https://ascopubs.org/doi/full/10.1200/PO.18.00036
+https://www.jci.org/articles/view/147878
 
-## Install
-The current R version is 3.6.1. 
+## Abstract
+"
+BACKGROUND. Molecular characterization of prostate cancer (PCa) has revealed distinct subclasses based on underlying genomic alterations occurring early in the natural history of the disease. However, how these early alterations influence subsequent molecular events and the course of the disease over its long natural history remains unclear.
 
-Required SVM package:
-install.packages("https://cran.r-project.org/src/contrib/Archive/e1071/e1071_1.7-2.tar.gz", repos=NULL)
+METHODS. We explored the molecular and clinical progression of different genomic subtypes of PCa using distinct tumor lineage models based on human genomic and transcriptomic data. We developed transcriptional classifiers, and defined “early” and “late” categories of molecular subclasses from 8,158 PCa patients. Molecular subclasses were correlated with clinical outcomes and pathologic characteristics using Kaplan-Meier and logistic regression analyses.
 
-## Prerequisite
+RESULTS. We identified PTEN and CHD1 alterations as subtype-specific late progression events specifically in ERG-overexpressing (ERG+) and SPOP-mutant tumors, respectively, and 2 distinct progression models consisting of ERG/PTEN (normal to ERG+ to PTEN-deleted) and SPOP/CHD1 (normal to SPOP-mutated to CHD1-deleted) with shared early tumorigenesis but distinct pathways toward progression. We found that within ERG+ and SPOP-mutant subtypes, late events were associated with worse prognosis. Importantly, the clinical and pathologic features associated with distinct late events at radical prostatectomy were strikingly different; PTEN deletions were associated with increased locoregional stage, while CHD1 deletions were only associated with increased grade, despite equivalent metastatic potential.
 
-### 1. SPOP mutant signature
-Signature is downloaded from Supplementary Table 1a (https://ascopubs.org/doi/suppl/10.1200/PO.18.00036/)
+CONCLUSION. These findings suggest a paradigm in which specific subtypes of PCa follow distinct pathways of progression, at both the molecular and clinical levels. Therefore, the interpretation of common clinical parameters such as locoregional tumor stage may be influenced by the underlying tumor lineage, and potentially influence management decisions.
 
-### 2. SPOP signature normalization based on TCGA FPKM expression data
-sig212 <- read.table("del2017/SPOP-RNA-classifier/TCGA_333_SPOP_sig_212genes.txt", sep="\t", header=T, check.names=F)
-
-### 3. SPOP mutant status is derived from TCGA PCA study (PMID: 26544944)
-Table S1: https://www.cell.com/fulltext/S0092-8674(15)01339-2#supplementaryMaterial
+"
