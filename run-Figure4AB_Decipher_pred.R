@@ -36,7 +36,6 @@ dat_gdx_expm[1:3, 1:3]
 #Decipher data info saved in WCM cluster athana:
 datinfo<-read.xls("/home/del2017/lab_del2017/Decipher/gndx-2016-04-26_clinical_expression_data.xlsx", 1)
 datinfo2<-read.xls("/home/del2017/lab_del2017/Decipher/gndx-2016-04-26_clinical_data_key.xlsx", 1)
-
 #Decipher exp subtype
 dat_gdx_expm_sub<-t(merge(dat_gdx_expm, data.frame(c("ERG", "ETV1", "ETV4", "ETV5", "FLI1", "SPINK1")), by.x="gene", by.y="c..ERG....ETV1....ETV4....ETV5....FLI1....SPINK1.."))
 dat_gdx_expm_sub<-data.frame(dat_gdx_expm_sub[2:nrow(dat_gdx_expm_sub),])
