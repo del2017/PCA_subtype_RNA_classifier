@@ -333,12 +333,13 @@ dev.off()
 
 
 #GenomeDx 6532 all gene expression dataset
-data.prospective_all<-readRDS("/Users/deli/Desktop/Chris/TCGA-PCA/GenomeDX/Prospective_cohort_20190424/gdx_20190422_Prospective_gdxExon_expression.rds")
+data.prospective_all<-readRDS("/home/del2017/lab_del2017/Decipher/gdx_20190422_Prospective_gdxExon_expression.rds")
 #gene<-rownames(data.prospective_all)
 #data.prospective_all_data<-cbind(gene, data.prospective_all)
 data.prospective_all[1:3, 1:3]
 #GenomeDx 6532 sample clinical info.
-data.prospective_info<-read.csv("/Users/deli/Desktop/Chris/TCGA-PCA/GenomeDX/gndx-6532-data.prospective.csv")
+data.prospective_info<-read.csv("/home/del2017/lab_del2017/Decipher/gndx-6532-data.prospective.csv")
+
 data.prospective_clnic<-data.prospective_info[,1:11]
 #Add sample info
 dat_gdx_expm_sub<-t(merge(data.prospective_all, data.frame(c("ERG", "ETV1", "ETV4", "ETV5", "FLI1", "SPINK1")), by.x="row.names", by.y="c..ERG....ETV1....ETV4....ETV5....FLI1....SPINK1.."))
