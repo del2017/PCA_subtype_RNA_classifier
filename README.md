@@ -1,4 +1,5 @@
 # PCA_subtype_RNA_classifier
+A novel gene expression signature, classifier (SCaPT), and decision tree to predict the SPOP mutation, CHD1 deletion, PTEN deletion subclass from RNA gene expression data.
 
 ## Publication
 Tumor subtype defines distinct pathways of molecular and clinical progression in primary prostate cancer
