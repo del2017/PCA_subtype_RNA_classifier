@@ -1,4 +1,4 @@
-# PCA_subtype_JCI
+# PCA_subtype_RNA_classifier
 
 ## Publication
 Tumor subtype defines distinct pathways of molecular and clinical progression in primary prostate cancer
